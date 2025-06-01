@@ -6,11 +6,14 @@ export function Footer() {
     <footer className="border-t bg-black text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
-          <div className="flex items-center gap-4 md:w-1/3">
-            <div className="relative h-12 w-12">
-              <div className="absolute left-1/2 top-1/2 h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500"></div>
+          <div className="flex items-center gap-6 md:w-1/3">
+            <div className="relative h-16 w-16">
+              <div className="absolute left-1/2 top-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500"></div>
             </div>
-            <span className="text-3xl font-bold tracking-tight text-purple-400">Hostpay</span>
+            <div className="flex flex-col">
+              <span className="text-4xl font-bold tracking-tight text-white">NUVIANCE</span>
+              <span className="text-sm text-gray-400">Innovate. Transform. Excel.</span>
+            </div>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:w-2/3">
@@ -58,7 +61,7 @@ export function Footer() {
         
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-gray-400">© 2025 Hostpay, Inc. All rights reserved.</p>
+            <p className="text-gray-400">© 2025 Nuviance, Inc. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <Link href="#" className="text-gray-400 hover:text-white">
                 Twitter
