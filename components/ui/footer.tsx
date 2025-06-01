@@ -11,19 +11,19 @@ export function Footer() {
               <div className="absolute left-1/2 top-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500"></div>
             </div>
             <div className="flex flex-col">
-              <span className="text-4xl font-bold tracking-tight text-white">NUVIANCE</span>
-              <span className="text-sm text-gray-400">Innovate. Transform. Excel.</span>
+              <span className="text-4xl font-bold tracking-wider text-blue-400">NUVIANCE</span>
+              <span className="text-sm text-gray-400 mt-1">Innovate. Transform. Excel.</span>
             </div>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:w-2/3">
             <div>
-              <h3 className="font-semibold mb-4">Product</h3>
+              <h3 className="font-semibold mb-4">Solutions</h3>
               <ul className="space-y-2">
-                <li><Link href="#" className="text-gray-400 hover:text-white">Features</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Pricing</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Security</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Integrations</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Enterprise</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Business</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Startup</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Integration</Link></li>
               </ul>
             </div>
             
@@ -32,8 +32,8 @@ export function Footer() {
               <ul className="space-y-2">
                 <li><Link href="#" className="text-gray-400 hover:text-white">About</Link></li>
                 <li><Link href="#" className="text-gray-400 hover:text-white">Careers</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Blog</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Press</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">News</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Contact</Link></li>
               </ul>
             </div>
             
@@ -42,7 +42,7 @@ export function Footer() {
               <ul className="space-y-2">
                 <li><Link href="#" className="text-gray-400 hover:text-white">Documentation</Link></li>
                 <li><Link href="#" className="text-gray-400 hover:text-white">Help Center</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">API Reference</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">API Guide</Link></li>
                 <li><Link href="#" className="text-gray-400 hover:text-white">Community</Link></li>
               </ul>
             </div>
@@ -52,8 +52,8 @@ export function Footer() {
               <ul className="space-y-2">
                 <li><Link href="#" className="text-gray-400 hover:text-white">Privacy</Link></li>
                 <li><Link href="#" className="text-gray-400 hover:text-white">Terms</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Cookie Policy</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white">Licenses</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Security</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white">Compliance</Link></li>
               </ul>
             </div>
           </div>
@@ -64,10 +64,10 @@ export function Footer() {
             <p className="text-gray-400">© 2025 Nuviance, Inc. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <Link href="#" className="text-gray-400 hover:text-white">
-                Twitter
+                LinkedIn
               </Link>
               <Link href="#" className="text-gray-400 hover:text-white">
-                LinkedIn
+                Twitter
               </Link>
               <Link href="#" className="text-gray-400 hover:text-white">
                 GitHub
